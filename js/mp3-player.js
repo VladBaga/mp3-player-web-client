@@ -20,11 +20,11 @@ window.Mp3Player = {
         });
     },
 
-    getMp3FileDiv: function (mp3File) {
+    getMp3FileDiv: function (mp3file) {
         return `<tr>
- <td class="name">${mp3File.name}</td>
-   <td><a href="#" class="fa fa-trash delete" data-id="${mp3File.id}"></a></td>
-   <td><a href="#" class="fa fa-edit put" data-id="${mp3File.id}"></a></td>
+ <td class="name">${mp3file.name}</td>
+   <td><a href="#" class="fa fa-trash delete" data-id="${mp3file.id}"></a></td>
+   <td><a href="#" class="fa fa-edit put" data-id="${mp3file.id}"></a></td>
 </tr>`
     },
 
