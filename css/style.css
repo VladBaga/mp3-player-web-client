@@ -1,0 +1,107 @@
+#mp3file {
+    border: 4px solid #792396;
+    background-color: #555555;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#mp3file, h1{
+    text-align: center;
+}
+
+#mp3file, h3{
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button[type=submit], select {
+    padding: 3px;
+}
+button[type=reset], select {
+    padding: 3px;
+}
+div {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#mp3file td, #mp3file th {
+    border: 1px solid #555555;
+    padding: 5px 2px;
+}
+
+#mp3file tbody, #mp3file td{
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#mp3file thead{
+    background: #792396;
+    border-bottom: 4px solid #792396;
+}
+
+#mp3file thead, #mp3file th{
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #792396;
+}
+
+#mp3file tfoot{
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #CE3CFF;
+    background: -moz-linear-gradient(top, #da6dff 0%, #d34fff 66%, #CE3CFF 100%);
+    background: -webkit-linear-gradient(top, #da6dff 0%, #d34fff 66%, #CE3CFF 100%);
+    background: linear-gradient(to bottom, #da6dff 0%, #d34fff 66%, #CE3CFF 100%);
+    border-top: 5px solid #792396;
+}
+
+#mp3file tfoot, #mp3file td{
+    font-size: 13px;
+}
+
+#mp3file tfoot .links{
+    text-align: right;
+}
+#mp3file tfoot .links a{
+    display: inline-block;
+    background: #792396;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+#mp3file tr:nth-child(even){background: #CC3BFC;}
+
+/*#mp3file tr:hover {background-color: #ddd;}
+
+/*#mp3file th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #800080;
+    color: white;
+}

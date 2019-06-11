@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mp3 Player</title>
+
+    <link rel="stylesheet"  type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+<body bgcolor= "#f5deb3">
+
+<h1>Mp3 Player</h1>
+
+<table id="mp3file">
+    <thead>
+    <tr>
+        <th>Name</th>
+    </tr>
+    </thead>
+    <tfoot>
+    <tr>
+        <td colspan="12">
+            <div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div>
+        </td>
+    </tr>
+    </tfoot>
+    <tbody>
+    </tbody>
+</table>
+
+<h3>Add audio file :</h3>
+<form id="create-mp3-player-form">
+    <input type="text" name="name" title="Name" placeholder="Name">
+    <button type="submit" title="Save">&#128190;</button>
+    <button type="reset" title="Cancel">&#10006;</button>
+</form>
+
+<script src="js/lib/jquery-3.3.1.js"></script>
+<script src="js/mp3-player.js"></script>
+
+</body>
+</html>
